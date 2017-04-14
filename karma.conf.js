@@ -13,20 +13,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'assignment/1_selectors/index.html',
-      'assignment/1_selectors/styles.css',
-      'assignment/1_selectors/vendors/jquery.min.js',
-      'assignment/1_selectors/script.js',
-
-      // 'assignment/2_burrito-cat/index.html',
-      // 'assignment/2_burrito-cat/styles.css',
-      // 'assignment/2_burrito-cat/vendors/jquery.min.js',
-      // 'assignment/2_burrito-cat/script.js',
-      //
-      // 'assignment/3_memory-game/index.html',
-      // 'assignment/3_memory-game/styles.css',
-      // 'assignment/3_memory-game/vendors/jquery.min.js',
-      // 'assignment/3_memory-game/script.js',
+      'code-challenge/index.html',
+      'code-challenge/styles.css',
+      'code-challenge/vendors/jquery.min.js',
+      'code-challenge/script.js',
 
       'test/**.js'
       // // '5-2/src/imgs/*.png', // TODO image failing to load in PhantomJS
@@ -39,9 +29,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'assignment/1_selectors/index.html': ['html2js'],
-      'assignment/2_burrito-cat/index.html': ['html2js'],
-      'assignment/3_memory-game/index.html': ['html2js']
+      'code-challenge/index.html': ['html2js']
     },
 
     // test results reporter to use

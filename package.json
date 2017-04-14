@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrimeAcademy/prework-week-6.git"
+    "url": "git+https://github.com/PrimeAcademy/code-challenge-1"
   },
   "author": "kdszafranski, mhwalsh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PrimeAcademy/prework-week-6/issues"
+    "url": "https://github.com/PrimeAcademy/code-challenge-1/issues"
   },
-  "homepage": "https://github.com/PrimeAcademy/prework-week-6#readme",
+  "homepage": "https://github.com/PrimeAcademy/code-challenge-1#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "karma": "^1.3.0",
