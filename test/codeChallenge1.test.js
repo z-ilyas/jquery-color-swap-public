@@ -13,10 +13,10 @@ describe('basemode 1_selectors assignment', function() {
   });
 
   describe('on page load', function(){
-    it('should have a .create button on load', function() {
+    it('should have a #create button on load', function() {
       // make sure DOM is loaded
       onReady();
-      expect($('.create')).to.exist;
+      expect($('#create')).to.exist;
     });
   })
 
@@ -25,7 +25,7 @@ describe('basemode 1_selectors assignment', function() {
       //make sure DOM is loaded
       onReady();
       //click on create button
-      $('.create').click();
+      $('#create').click();
 
       expect($('.color-div')).to.exist;
     });
@@ -39,9 +39,9 @@ describe('basemode 1_selectors assignment', function() {
       //make sure DOM is loaded
       onReady();
       //click on create 3 times
-      $('.create').click();
-      $('.create').click();
-      $('.create').click();
+      $('#create').click();
+      $('#create').click();
+      $('#create').click();
 
       //number of colorDiv
       var numOfColorDivs = $('.color-div').length;
@@ -56,7 +56,7 @@ describe('basemode 1_selectors assignment', function() {
       //make sure DOM is loaded
       onReady();
       //click create and then swap the color
-      $('.create').click();
+      $('#create').click();
       $('.swap').click();
 
       //new inline style should set background-color to yellow.
@@ -68,7 +68,7 @@ describe('basemode 1_selectors assignment', function() {
       //make sure DOM is loaded
       onReady();
       //click create and then swap the color twice
-      $('.create').click();
+      $('#create').click();
       $('.swap').click();
       $('.swap').click();
 
@@ -87,8 +87,8 @@ describe('basemode 1_selectors assignment', function() {
       //make sure DOM is loaded
       onReady();
       //click on create 3 times
-      $('.create').click();
-      $('.create').click();
+      $('#create').click();
+      $('#create').click();
       $('.delete').last().click()
 
       //number of colorDiv
@@ -106,7 +106,7 @@ describe('basemode 1_selectors assignment', function() {
       onReady();
 
       //click on create button
-      $('.create').click();
+      $('#create').click();
 
 
       var numberFromDiv = parseInt($('.color-div').children().text());
@@ -119,11 +119,11 @@ describe('basemode 1_selectors assignment', function() {
       numberOfClicks = 0
       onReady();
       //click on create button
-      $('.create').click();
-      $('.create').click();
+      $('#create').click();
+      $('#create').click();
       $('.delete').click();
       $('.delete').click();
-      $('.create').click();
+      $('#create').click();
 
       var lastDivNumber = parseInt($('.color-div').last().children().text());
 
