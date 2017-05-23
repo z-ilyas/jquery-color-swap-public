@@ -4,7 +4,7 @@ Follow the steps below to complete the code challenge. To ensure our tests work,
 
 Take a deep breath. You can do this. This is open book. You can use your notes or past assignments. Break it up into small steps and accomplish as much as you can.
 
-1. Fork and clone the repo to get the starting code for this project. 
+1. Fork and clone the repo to get the starting code for this project.
 
 2. Using jQuery, when the create button is clicked append a `<div>` element to the provided `container` div. The new div should have the class `color-div`.
 
@@ -12,13 +12,13 @@ Take a deep breath. You can do this. This is open book. You can use your notes o
 
 4. Inside the `<div>` element you created in step two, append two `<button>` elements. One button should have a class of `swap` and one button should have a class of `delete`.
 
-5. In a CSS file, any `<div>` created using the `create` button should have a red background-color.
+5. Any `<div>` created using the `create` button should have a red background-color.
 
-6. Clicking a `swap` `<button>` should change its parent background-color from red to yellow.
+6. Clicking a `swap` `<button>` should change its parent background-color from red to yellow (and back to yellow if clicked again).
 
 7. Clicking a `delete` `<button>` should remove its parent `<div>` container (and all of its contents).
 
 No need to do anything beyond the challenge described above. Once you are complete, check your code into a GitHub repo and submit the repo link via the assignment application. You are welcome to leave the room once you are finished or stay at your desk. Either way, please be respectful of people who are still working.
 
-Click this link for a visual example: 
+Click this link for a visual example:
 [Link to Example](https://media.giphy.com/media/3ohzdZKPnR7PFXbzsQ/source.gif)
