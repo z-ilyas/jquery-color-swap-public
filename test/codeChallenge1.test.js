@@ -121,12 +121,15 @@ describe('basemode 1_selectors assignment', function() {
       //click on create button
       $('#create').click();
       $('#create').click();
+
+      var firstCreated = parseInt($('.color-div').last().children().text());
+      assert.equal(firstCreated, 3, '1st of 2 divs should have number 1');
+
       $('.delete').click();
       $('.delete').click();
       $('#create').click();
 
       var lastDivNumber = parseInt($('.color-div').last().children().text());
-
       assert.equal(lastDivNumber, 3, '3rd div created should have number 3');
     });
   })
