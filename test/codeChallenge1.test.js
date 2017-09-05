@@ -1,6 +1,6 @@
 describe('1_selectors assignment', function() {
   before(function() {
-    fixture.setBase('assignment/1_selectors');
+    fixture.setBase('code-challenge');
   });
 
   beforeEach(function () {
