@@ -18,6 +18,8 @@ Welcome to your first code challenge! This is a chance for you to share what you
 
 ## Instructions
 
+First, Fork and Clone this repo to your computer.
+
 Follow the steps below to complete the code challenge:
 
 1. Create a `<button>` element on the DOM, you may do this in jQuery, or write it directly in the HTML code. Have the button text read "Generate". 
