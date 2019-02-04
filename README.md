@@ -43,4 +43,4 @@ No need to do anything beyond the challenge described above. Once you are comple
 
 ## Example
 
-[Link to Example](https://media.giphy.com/media/3ohzdZKPnR7PFXbzsQ/source.gif)
+![Link to Example](https://media.giphy.com/media/3ohzdZKPnR7PFXbzsQ/source.gif)
