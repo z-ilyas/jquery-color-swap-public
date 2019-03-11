@@ -5,8 +5,8 @@ Welcome to your first code challenge! This is a chance for you to share what you
 ### This is not
 
 - **This is not** our way of outing imposters. You belong here.
-- **This is not** a chance to ask instructors or neighbors for help. At least not during the challenge. We're looking for an accurate assessment of where the class is at individually, so we know what to review.
-- **This is not** a chance to bang your head against a wall. I know we just said no asking for help, but there are exceptions. Some things (like environment setup, internet connectivity, etc) aren't what the challenge is about. You can ask for help, but we might decline if it is, in fact, related to the challenge.
+- **This is not** a chance to ask neighbors for help. At least not during the challenge. We're looking for an accurate assessment of where the class is at individually, so we know what to review.
+- **This is not** a chance to bang your head against a wall. Some things (like environment setup, internet connectivity, etc) aren't what the challenge is about. You can ask for help, but we might decline if it is, in fact, related to the challenge.
 - **This is not** an opportunity to spiral into despair. No assessment (including this one) is a measure of your self-worth. You're awesome.
 
 ### This is
@@ -28,19 +28,19 @@ Follow the steps below to complete the code challenge:
 
 3. Inside the `<div>` element you created in the previous step, create a `<p>` element that shows how many times you have clicked the "Generate" button from the first step.
 
-4. Inside the `<div>` element created in step two, append two `<button>` elements with text of "Swap" & "Delete". 
+4. Inside the `<div>` element created in step two, append two `<button>` elements with text of "Yellow" & "Delete". 
 
-5. In a CSS file, any `<div>` created using the "Generate" button should start with red as it's background-color.
+5. In a CSS file, any `<div>` created using the "Generate" button should start with red as it's `background-color`.
 
-6. Clicking a "Swap" `<button>` should change its parent background-color from red to yellow (HINT: Research `toggleClass`).
+6. Clicking a "Yellow" `<button>` should change its parent `background-color` from red to yellow.
 
-7. Clicking the "Swap" `<button>` on a yellow div should turn the background-color to red.
-
-8. Clicking a "Delete" `<button>` should remove its parent `<div>`. 
+7. Clicking a "Delete" `<button>` should remove its parent `<div>` and that `<div>s` children (including the clicked on "Delete" button). 
 
 No need to do anything beyond the challenge described above. Once you are complete, check your code into a GitHub repo and submit via this application.
 
 
 ## Example
 
-![Link to Example](https://media.giphy.com/media/3ohzdZKPnR7PFXbzsQ/source.gif)
+[Link to Example](https://media.giphy.com/media/dAT1IWEJGmPStIJYDS/giphy.gif)
+
+![Example](https://media.giphy.com/media/dAT1IWEJGmPStIJYDS/giphy.gif)
