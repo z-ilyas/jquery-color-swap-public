@@ -41,6 +41,6 @@ No need to do anything beyond the challenge described above. Once you are comple
 
 ## Example
 
-[Link to Example](https://media.giphy.com/media/dAT1IWEJGmPStIJYDS/giphy.gif)
+See the linked video below for a demo of what the app should do:
 
-![Example](https://media.giphy.com/media/dAT1IWEJGmPStIJYDS/giphy.gif)
+[See Example Video](https://vimeo.com/364803508)
