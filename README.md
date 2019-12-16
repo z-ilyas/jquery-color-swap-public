@@ -20,13 +20,15 @@ Welcome to your first code challenge! This is a chance for you to share what you
 
 First, Fork and Clone this repo to your computer.
 
+There is a gif below that shows what these instructions ask you to build.
+
 Follow the steps below to complete the code challenge:
 
 1. Create a `<button>` element on the DOM, you may do this in jQuery, or write it directly in the HTML code. Have the button text read "Generate". 
 
-2. Using jQuery, append a `<div>` element when you click the button.
+2. Using jQuery, append a `<div>` element when you click the button. It should append a new div each time you click the button.
 
-3. Inside the `<div>` element you created in the previous step, create a `<p>` element that shows how many times you have clicked the "Generate" button from the first step.
+3. Inside the `<div>` element you created in the previous step, create a `<p>` element that shows how many times you have clicked the "Generate" button from the first step. It should reflect the count for that step - the first div you made should be 1, the second 2, etc.
 
 4. Inside the `<div>` element created in step two, append two `<button>` elements with text of "Yellow" & "Delete". 
 
