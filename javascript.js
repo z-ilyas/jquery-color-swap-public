@@ -15,7 +15,7 @@ function createElement(){
 }
 
 function makeitYellow() {
-    $('div').css('background-color', 'yellow')
+    $(this).parent().css('background-color', 'yellow')
 }
 
 function deleteDiv() {
