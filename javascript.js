@@ -2,15 +2,15 @@ $(document).ready(onReady);
 let counter = 1;
 function onReady() {
     $('#generete-btn').on('click', createElement);
-    $('div').children().children().on('click', makeitYellow);
-    $('div').children().children().children().on('click', deleteDiv)
+    $('Main').on('click', '#yellow-btn', makeitYellow);
+    $('Main').on('click', '#delete-btn', deleteDiv)
 }
 
 function createElement(){
     $('Main').append(`<div>
     <p> ${counter++} </p>
-    <button>Yellow</button>
-    <button>Delete</button>
+    <button id="yellow-btn">Yellow</button>
+    <button id="delete-btn">Delete</button>
     </div>`);
 }
 
